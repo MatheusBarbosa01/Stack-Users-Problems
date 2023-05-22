@@ -1,23 +1,23 @@
 public class Action {
 
-    private String name;
+    private String act;
 
-    public Action(String name) {
-        this.name = name;
+    public Action(String act) {
+        this.act = act;
     }
 
-    public String getName() {
-        return name;
+    public String getAct() {
+        return act;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setAct(String act) {
+        this.act = act;
     }
 
     @Override
     public String toString() {
         return "Action{" +
-                "name='" + name + '\'' +
+                "acao='" + act + '\'' +
                 '}';
     }
 }
